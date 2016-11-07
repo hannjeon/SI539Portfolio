@@ -1,0 +1,90 @@
+html, body {
+  margin: 0;
+  padding: 0; 
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fff;
+  } 
+
+.container {
+  max-width: 940px; 
+  margin: 0 auto;
+  } 
+
+/* Main */
+.main {
+  background: url(../img/contact_back01.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  margin-bottom: 30px;
+  }
+
+.main > .col-md-7 {
+  background-color: #fff;
+  }
+
+.main h1 {
+  font-size: 30px;
+  margin: 0 0 20px 0;
+  color: #fff;
+  padding-top: 20px;
+  }
+
+.main p {
+  color: #fff;
+  }
+
+.main .btn {
+  width: 200px; 
+  margin-top:30px; 
+  color:#fff;
+  background-color: #b20215;
+  border:0px;
+  border-radius:0px; 
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 14px;
+  }
+
+/* Form */
+form input.form-control { 
+  border-radius:5px; 
+  }
+     
+@media (max-width: 992px) {
+ .col-md-7 { 
+  margin: 0 auto 0; 
+  width: 60%; 
+  } 
+
+ .col-md-4 { 
+  margin: 0 auto 0; 
+  text-align: center; 
+  width: 100%; 
+  } 
+} 
+
+@media (max-width: 500px) { 
+  .header h1, h2 { 
+    text-align: center; 
+  } 
+
+  .nav li { 
+    text-align: center; 
+    width: 100%; 
+    margin: 10px 0;
+  } 
+
+  .main img {
+    width: 100%;
+  }
+
+  .footer ul {
+  float: none;
+  margin: 0 auto;
+  padding: 0;
+  }
+
+  .footer img {
+  width: 40px;
+  }
+}
