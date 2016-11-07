@@ -18,6 +18,10 @@ html, body {
 	margin-bottom: 40px;
 	} 
 
+.content span { 
+	color: #b20125; 
+	} 
+
 /* Main */ 
 .main {
 	background-color: #fff;
