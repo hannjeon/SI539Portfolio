@@ -10,93 +10,38 @@ html, body {
 	margin: 0 auto;
 	} 
 
-/* Jumbotron #b20215*/ 
-.jumbotron {
+/* Content */ 
+.content { 
+	color: #666; 
+	padding: 5px; 
+	text-align: center;
+	margin-bottom: 40px;
+	} 
+
+/* Main */ 
+.main {
 	background-color: #fff;
 	} 
 
-.jumbotron h2 {
-	font-size: 50px; 
-	margin-bottom: 120px; 
-	} 
-
-.jumbotron h2 span {
-	color:#ffc200; 
-	} 
+.main .col-md-4, 
+.main .col-xs-6 {
+	padding: 6px;
+} 
 
 
-.jumbotron p {
-	text-shadow: 0 0; 
-	font-size: 16px; 
-	color: #666; 
-	margin-bottom: 0; 
-	} 
-
-.jumbotron img {
+.main img {
 	margin-bottom: 25px; 
-	width: 350px;
+	width: 300px;
 	} 
 
 .thumbnail {
-    padding: 0;
     box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
     border-radius: 0px;
     border: 0px;
     width: 217px;
-    height: 168px%;
-}
-
-
-/* Banner */ 
-.banner { 
-	color: #666; 
-	padding: 5px; 
-	text-align: center;
-	} 
-
-/* Image section */ 
-.image-section h2 {
-	width: 300px; 
-	margin: 200px auto; 
-	font-size: 24px; 
-	padding: 5px; } 
-
-.image-section {
-	position:relative; 
-	top:100px; 
-	height: 800px; 
-	color: #fff; 
-	} 
-
-.image-section h2 {
-	margin-bottom: 40px; 
-	} 
-
-.wrapper {
-	margin-top: 80px; 
-	margin-left: 600px; 
-	} 
-
-.btn {
-	border-radius:0; 
-	margin-top: 40px; 
-	background-color:#ffc200; 
-	padding: 10px; 
-	color: #000; 
-	font-size: 14px; 
-	width:200px; 
-	} 
-
-/* Cards */ 
-.cards {
-	background:#ffc200; 
-	padding: 80px 0; 
+    height: 168px;
+    margin-bottom: 25px;
 	}
-
-.cards h2 {
-	margin: 20px 0 60px 0; 
-	text-align: center; 
-	} 
 
 @media (max-width: 992px) {
  .col-md-4 { 
@@ -104,21 +49,9 @@ html, body {
  	text-align: center; 
  	width: 100%; 
  	} 
-
- 	.jumbotron h2 span {
-		color: #aaa; 
-	} 
 } 
 
 @media (max-width: 500px) { 
-	.header h1, h2 { 
-		text-align: center; 
-	} 
-
-	.jumbotron h2 span {
-		color: #aaa; 
-	} 
-
 	.nav li { 
 		text-align: center; 
 		width: 100%; 
