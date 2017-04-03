@@ -1,0 +1,9 @@
+
+
+/* Jumbotron */ 
+.jumbotron {
+	background: url(../img/portfolio/forma/forma_main1.png) no-repeat center center;
+	background-size: cover;
+	margin-bottom: 0;
+	height: 550px;
+	} 
